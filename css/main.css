@@ -1,0 +1,538 @@
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url(../fonts/poppins-semibold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins SemiBold"; 
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* global styles */
+
+.header {
+    background-color: #daac00;
+    
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 260px;
+    padding: 31px 75px 5px 0;
+
+    cursor: pointer;
+}
+
+.list-menu a {
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;  
+}
+
+.list-menu ul {
+    display: flex;
+    justify-content: space-between;
+
+    width: 31.25em;
+    margin-top: 50px;
+
+    list-style: none;
+}
+
+.list-menu a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.search {
+    margin-top: 30px;
+
+    color: #fff;    
+}
+
+.search input {
+    margin: 15px;
+    padding: 5px;  
+
+    background-color: #fcc302;
+
+    border: 1px solid #fff;
+}
+
+.input::placeholder {
+    color: #ffffff;
+}
+
+.menu {
+    display: none;
+}
+
+/* header */
+
+.home {
+    background-color: #fcc302;
+}
+
+.glav {
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+}
+
+.glav-menu {
+    margin: 170px 155px;
+}
+
+.glav-imag img {
+    width: 390px;
+
+    margin-top: 35px;
+
+    cursor: pointer;
+}
+
+.btn-class button{
+    padding: 15px;
+    margin-top: 40px;
+
+    border-radius: 15px;
+    border: 0;
+
+    cursor: pointer;
+
+    background: #fcc302;
+    
+    color: #fff;    
+}
+
+.btn-class button:hover {
+    background-color: #00bec9;
+}
+
+/* glav */
+
+
+.vet {
+    display: flex;
+    justify-content: center;
+
+    background-color: #fff;
+
+    margin: 25px;
+}
+
+.veterinatian-menu {
+    margin-top: 70px;
+}
+
+.veterinatian-img img {
+    width: 400px;
+
+    margin-top: 50px;
+    margin-left: 150px;
+
+    cursor: pointer;
+}
+
+/* vet */
+
+.title {
+    background-color: #fcc302;
+
+    color: #fff;
+
+    padding-bottom: 50px;
+}
+
+.title-menu {
+    text-align: center;
+}
+
+.title-menu h1 {
+    padding: 15px;
+    font-size: 55px;
+}
+
+.title-menu p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.title-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-img img {
+    width: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-text {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* title */
+
+.ans {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.animals-img img{
+    width: 400px;
+}
+
+.animals-menu {
+    margin-left: 155px;
+    padding-top: 80px;
+}
+
+/* animals */
+
+.title-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* title */
+.vetcare {
+    display: flex;
+    justify-content: space-evenly;
+}
+.vetcare-menu h1 {
+    padding: 15px;
+
+    font-size: 55px;
+}
+
+
+.vetcare-menu {
+    font-size: 18px;
+    
+    text-align: center;
+}
+
+.vetcare-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vetcare-img img {
+    width: 350px;
+}
+
+.about-vec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-vector img {
+    background-color: #daac00;
+}
+
+.about-vector p {
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.about-img {
+    margin-bottom: 60px;
+}
+
+/* vector */
+
+.static {
+    /* background-image: url(../images/static/bg/Place\ Your\ Image\ Here.png); */
+    background-color: #daac00;
+
+    display: flex;
+}
+
+.static-img {
+    margin-top: 30px;
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .static-img img {
+    /* width: 70px; 
+} 
+*/
+
+.static-text {
+    color: #ffffff;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 60px;
+}
+
+.glav-ab {
+    font-size: 26px;
+}
+
+/* static */
+
+.recent {
+    margin: 30px;
+}
+
+.recent-menu h1 {
+    font-size: 55px;
+}
+
+.recent-menu {
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+.recent-img img {
+    width: 350px;
+}
+
+.recent-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lorem-rec {
+    padding: 15px 0;
+}
+
+.recent-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-rec {
+    border: 1px solid #d6d6d6;
+
+    padding: 30px;
+}
+
+.text-rec a {
+    text-decoration: none;
+
+    color: #00bec9;
+}
+
+/* recent */
+
+.footer {
+    padding: 10px 60px;
+
+    background-color: #343434;
+}
+
+.footer-services {
+    margin-top: 25px;
+}
+
+.footer-info a {
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.footer-info a:hover {
+    color: rgba(105, 101, 101, 0.616);
+
+    border-bottom: 1px solid rgba(105, 101, 101, 0.767);;
+}
+
+.footer-info {
+    color: #fff;
+
+    display: flex;
+
+    padding: 7px;
+
+    border-right: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+}
+
+.footer-about {
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.title-here {
+    color: #fff;
+
+    margin-left: 500px;
+}
+
+.footer-input {
+    padding: 25px;
+}
+
+/* footer */
+
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 1150px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .container {
+        width: 1150px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .recent-img img {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .text-rec {
+        border: 1px solid #d6d6d6;
+    
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 930px;
+        margin: 0 auto;
+    }
+
+    .recent-img img {
+        width: 273px;
+        margin-left: 11px;
+    }
+
+    .text-rec {
+        border: 1px solid #d6d6d6;
+    
+        font-size: 14.8px;
+
+        padding: 4px;
+    }
+
+    .title-here {
+        color: #fff;
+
+        margin-left: 400px;
+    }
+
+    .vetcare-img img {
+        width: 293px;
+    }
+
+    .input {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+
+        margin: 0 auto;
+    }
+
+    .list-menu {
+        display: none;
+    }
+
+    
+    .logo img{
+        width: 260px;
+
+        padding: 14px 168px 5px 0;
+    }
+
+    .glav-menu h1 {
+        font-size: 32px;
+    }
+
+    .glav-menu {
+        margin: 119px 0px;
+
+        padding-right: 50px;
+    } 
+
+    .glav-imag img {
+        width: 148px;
+
+        margin-top: 147px;
+        margin-right: 170px;
+    }
+
+    .btn-class {
+        font-size: 12px;
+    }
+
+    .veterinatian-menu {
+        margin-top: 60px;
+        margin-left: 86px;
+
+        font-size: 11px;
+    }
+    
+    .veterinatian-img img {
+        width: 263px;
+
+        margin-top: 25px;
+        margin-left: -487px;
+
+        cursor: pointer;
+    }
+
+    .title-menu {
+        text-align: left;
+        
+        padding-right: 50px;
+    }
+
+    .title-menu h1 {
+        font-size: 40px;
+    }
+
+    .title-menu p {
+        font-size: 18px;
+    }
+}
+
+/* media screen */
